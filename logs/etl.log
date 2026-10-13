@@ -1,0 +1,151 @@
+2026-10-13 12:53:24,695 | INFO | EXTRACT | file=dim_employee.csv | rows=1606 | columns=21
+2026-10-13 12:53:24,800 | INFO | EXTRACT | file=fact_payroll.csv | rows=7344 | columns=33
+2026-10-13 12:53:24,841 | INFO | EXTRACT | file=fact_attendance_monthly.csv | rows=7343 | columns=16
+2026-10-13 12:53:24,870 | INFO | EXTRACT | file=fact_leave.csv | rows=3441 | columns=14
+2026-10-13 12:53:24,871 | INFO | Extraction completed successfully.
+2026-10-13 13:04:13,567 | INFO | ========== ETL PIPELINE STARTED ==========
+2026-10-13 13:04:13,658 | INFO | EXTRACT | file=dim_employee.csv | rows=1606 | columns=21
+2026-10-13 13:04:13,758 | INFO | EXTRACT | file=fact_payroll.csv | rows=7344 | columns=33
+2026-10-13 13:04:13,797 | INFO | EXTRACT | file=fact_attendance_monthly.csv | rows=7343 | columns=16
+2026-10-13 13:04:13,844 | INFO | EXTRACT | file=fact_leave.csv | rows=3441 | columns=14
+2026-10-13 13:04:14,120 | INFO | TRANSFORM | file=dim_employee.csv | input_rows=1606 | output_rows=1606 | duplicates_removed=0 | output=/Users/admin/Desktop/GrowMar/etl-task1/data/clean/dim_employee.csv
+2026-10-13 13:04:14,551 | INFO | TRANSFORM | file=fact_payroll.csv | input_rows=7344 | output_rows=7344 | duplicates_removed=0 | output=/Users/admin/Desktop/GrowMar/etl-task1/data/clean/fact_payroll.csv
+2026-10-13 13:04:14,693 | INFO | TRANSFORM | file=fact_attendance_monthly.csv | input_rows=7343 | output_rows=7343 | duplicates_removed=0 | output=/Users/admin/Desktop/GrowMar/etl-task1/data/clean/fact_attendance_monthly.csv
+2026-10-13 13:04:14,771 | INFO | TRANSFORM | file=fact_leave.csv | input_rows=3441 | output_rows=3441 | duplicates_removed=0 | output=/Users/admin/Desktop/GrowMar/etl-task1/data/clean/fact_leave.csv
+2026-10-13 13:04:14,840 | INFO | VALIDATE | file=dim_employee.csv | input=1606 | accepted=1606 | rejected=0
+2026-10-13 13:04:15,169 | INFO | VALIDATE | file=fact_payroll.csv | input=7344 | accepted=7344 | rejected=0
+2026-10-13 13:04:15,279 | INFO | VALIDATE | file=fact_attendance_monthly.csv | input=7343 | accepted=7343 | rejected=0
+2026-10-13 13:04:15,369 | INFO | VALIDATE | file=fact_leave.csv | input=3441 | accepted=3439 | rejected=2
+2026-10-13 13:04:15,369 | INFO | Rejected rows saved to /Users/admin/Desktop/GrowMar/etl-task1/rejected/rejected_fact_leave.csv
+2026-10-13 13:04:15,370 | INFO | Validation completed.
+2026-10-13 13:04:15,370 | INFO | ========== ETL PIPELINE COMPLETED ==========
+2026-10-13 08:27:36,545 | INFO | ========== ETL PIPELINE STARTED ==========
+2026-10-13 08:27:36,942 | INFO | EXTRACT | file=dim_employee.csv | rows=1606 | columns=21
+2026-10-13 08:27:37,288 | INFO | EXTRACT | file=fact_payroll.csv | rows=7344 | columns=33
+2026-10-13 08:27:37,358 | INFO | EXTRACT | file=fact_attendance_monthly.csv | rows=7343 | columns=16
+2026-10-13 08:27:37,452 | INFO | EXTRACT | file=fact_leave.csv | rows=3441 | columns=14
+2026-10-13 08:27:38,314 | INFO | TRANSFORM | file=dim_employee.csv | input_rows=1606 | output_rows=1606 | duplicates_removed=0 | output=/app/data/clean/dim_employee.csv
+2026-10-13 08:27:39,628 | INFO | TRANSFORM | file=fact_payroll.csv | input_rows=7344 | output_rows=7344 | duplicates_removed=0 | output=/app/data/clean/fact_payroll.csv
+2026-10-13 08:27:40,065 | INFO | TRANSFORM | file=fact_attendance_monthly.csv | input_rows=7343 | output_rows=7343 | duplicates_removed=0 | output=/app/data/clean/fact_attendance_monthly.csv
+2026-10-13 08:27:40,733 | INFO | TRANSFORM | file=fact_leave.csv | input_rows=3441 | output_rows=3441 | duplicates_removed=0 | output=/app/data/clean/fact_leave.csv
+2026-10-13 08:27:41,259 | INFO | VALIDATE | file=dim_employee.csv | input=1606 | accepted=1606 | rejected=0
+2026-10-13 08:27:42,170 | INFO | VALIDATE | file=fact_payroll.csv | input=7344 | accepted=7344 | rejected=0
+2026-10-13 08:27:42,522 | INFO | VALIDATE | file=fact_attendance_monthly.csv | input=7343 | accepted=7343 | rejected=0
+2026-10-13 08:27:43,042 | INFO | VALIDATE | file=fact_leave.csv | input=3441 | accepted=3439 | rejected=2
+2026-10-13 08:27:43,043 | INFO | Rejected rows saved to /app/rejected/rejected_fact_leave.csv
+2026-10-13 08:27:43,047 | INFO | Validation completed.
+2026-10-13 08:27:43,066 | INFO | ========== ETL PIPELINE COMPLETED ==========
+2026-10-13 08:38:55,622 | INFO | ========== ETL PIPELINE STARTED ==========
+2026-10-13 08:38:55,699 | INFO | EXTRACT | file=dim_employee.csv | rows=1606 | columns=21
+2026-10-13 08:38:55,918 | INFO | EXTRACT | file=fact_payroll.csv | rows=7344 | columns=33
+2026-10-13 08:38:55,987 | INFO | EXTRACT | file=fact_attendance_monthly.csv | rows=7343 | columns=16
+2026-10-13 08:38:56,023 | INFO | EXTRACT | file=fact_leave.csv | rows=3441 | columns=14
+2026-10-13 08:38:56,214 | INFO | TRANSFORM | file=dim_employee.csv | input_rows=1606 | output_rows=1606 | duplicates_removed=0 | output=/app/data/clean/dim_employee.csv
+2026-10-13 08:38:56,863 | INFO | TRANSFORM | file=fact_payroll.csv | input_rows=7344 | output_rows=7344 | duplicates_removed=0 | output=/app/data/clean/fact_payroll.csv
+2026-10-13 08:38:57,067 | INFO | TRANSFORM | file=fact_attendance_monthly.csv | input_rows=7343 | output_rows=7343 | duplicates_removed=0 | output=/app/data/clean/fact_attendance_monthly.csv
+2026-10-13 08:38:57,252 | INFO | TRANSFORM | file=fact_leave.csv | input_rows=3441 | output_rows=3441 | duplicates_removed=0 | output=/app/data/clean/fact_leave.csv
+2026-10-13 08:38:57,365 | INFO | VALIDATE | file=dim_employee.csv | input=1606 | accepted=1606 | rejected=0
+2026-10-13 08:38:58,102 | INFO | VALIDATE | file=fact_payroll.csv | input=7344 | accepted=7344 | rejected=0
+2026-10-13 08:38:58,307 | INFO | VALIDATE | file=fact_attendance_monthly.csv | input=7343 | accepted=7343 | rejected=0
+2026-10-13 08:38:58,450 | INFO | VALIDATE | file=fact_leave.csv | input=3441 | accepted=3439 | rejected=2
+2026-10-13 08:38:58,453 | INFO | Rejected rows saved to /app/rejected/rejected_fact_leave.csv
+2026-10-13 08:38:58,457 | INFO | Validation completed.
+2026-10-13 08:38:58,458 | INFO | ========== ETL PIPELINE COMPLETED ==========
+2026-10-13 11:45:52,417 | INFO | ========== ETL PIPELINE STARTED ==========
+2026-10-13 11:45:52,635 | INFO | EXTRACT | file=dim_employee.csv | rows=1606 | columns=21
+2026-10-13 11:45:53,260 | INFO | EXTRACT | file=fact_payroll.csv | rows=7344 | columns=33
+2026-10-13 11:45:53,330 | INFO | EXTRACT | file=fact_attendance_monthly.csv | rows=7343 | columns=16
+2026-10-13 11:45:53,399 | INFO | EXTRACT | file=fact_leave.csv | rows=3441 | columns=14
+2026-10-13 11:45:53,730 | INFO | TRANSFORM | file=dim_employee.csv | input_rows=1606 | output_rows=1606 | duplicates_removed=0 | output=/app/data/clean/dim_employee.csv
+2026-10-13 11:45:54,842 | INFO | TRANSFORM | file=fact_payroll.csv | input_rows=7344 | output_rows=7344 | duplicates_removed=0 | output=/app/data/clean/fact_payroll.csv
+2026-10-13 11:45:55,860 | INFO | TRANSFORM | file=fact_attendance_monthly.csv | input_rows=7343 | output_rows=7343 | duplicates_removed=0 | output=/app/data/clean/fact_attendance_monthly.csv
+2026-10-13 11:45:56,768 | INFO | TRANSFORM | file=fact_leave.csv | input_rows=3441 | output_rows=3441 | duplicates_removed=0 | output=/app/data/clean/fact_leave.csv
+2026-10-13 11:45:57,174 | INFO | VALIDATE | file=dim_employee.csv | input=1606 | accepted=1606 | rejected=0
+2026-10-13 11:45:58,950 | INFO | VALIDATE | file=fact_payroll.csv | input=7344 | accepted=7344 | rejected=0
+2026-10-13 11:45:59,818 | INFO | VALIDATE | file=fact_attendance_monthly.csv | input=7343 | accepted=7343 | rejected=0
+2026-10-13 11:46:00,541 | INFO | VALIDATE | file=fact_leave.csv | input=3441 | accepted=3439 | rejected=2
+2026-10-13 11:46:00,545 | INFO | Rejected rows saved to /app/rejected/rejected_fact_leave.csv
+2026-10-13 11:46:00,574 | INFO | Validation completed.
+2026-10-13 11:46:00,576 | INFO | ========== ETL PIPELINE COMPLETED ==========
+2026-10-13 11:47:45,309 | INFO | ========== ETL PIPELINE STARTED ==========
+2026-10-13 11:47:45,362 | INFO | EXTRACT | file=dim_employee.csv | rows=1606 | columns=21
+2026-10-13 11:47:45,534 | INFO | EXTRACT | file=fact_payroll.csv | rows=7344 | columns=33
+2026-10-13 11:47:45,571 | INFO | EXTRACT | file=fact_attendance_monthly.csv | rows=7343 | columns=16
+2026-10-13 11:47:45,605 | INFO | EXTRACT | file=fact_leave.csv | rows=3441 | columns=14
+2026-10-13 11:47:45,760 | INFO | TRANSFORM | file=dim_employee.csv | input_rows=1606 | output_rows=1606 | duplicates_removed=0 | output=/app/data/clean/dim_employee.csv
+2026-10-13 11:47:46,326 | INFO | TRANSFORM | file=fact_payroll.csv | input_rows=7344 | output_rows=7344 | duplicates_removed=0 | output=/app/data/clean/fact_payroll.csv
+2026-10-13 11:47:46,525 | INFO | TRANSFORM | file=fact_attendance_monthly.csv | input_rows=7343 | output_rows=7343 | duplicates_removed=0 | output=/app/data/clean/fact_attendance_monthly.csv
+2026-10-13 11:47:46,693 | INFO | TRANSFORM | file=fact_leave.csv | input_rows=3441 | output_rows=3441 | duplicates_removed=0 | output=/app/data/clean/fact_leave.csv
+2026-10-13 11:47:46,829 | INFO | VALIDATE | file=dim_employee.csv | input=1606 | accepted=1606 | rejected=0
+2026-10-13 11:47:47,461 | INFO | VALIDATE | file=fact_payroll.csv | input=7344 | accepted=7344 | rejected=0
+2026-10-13 11:47:47,719 | INFO | VALIDATE | file=fact_attendance_monthly.csv | input=7343 | accepted=7343 | rejected=0
+2026-10-13 11:47:47,878 | INFO | VALIDATE | file=fact_leave.csv | input=3441 | accepted=3439 | rejected=2
+2026-10-13 11:47:47,879 | INFO | Rejected rows saved to /app/rejected/rejected_fact_leave.csv
+2026-10-13 11:47:47,882 | INFO | Validation completed.
+2026-10-13 11:47:47,883 | INFO | ========== ETL PIPELINE COMPLETED ==========
+2026-10-13 11:54:42,032 | INFO | ========== ETL PIPELINE STARTED ==========
+2026-10-13 11:54:42,090 | INFO | EXTRACT | file=dim_employee.csv | rows=1606 | columns=21
+2026-10-13 11:54:42,245 | INFO | EXTRACT | file=fact_payroll.csv | rows=7344 | columns=33
+2026-10-13 11:54:42,290 | INFO | EXTRACT | file=fact_attendance_monthly.csv | rows=7343 | columns=16
+2026-10-13 11:54:42,324 | INFO | EXTRACT | file=fact_leave.csv | rows=3441 | columns=14
+2026-10-13 11:54:42,483 | INFO | TRANSFORM | file=dim_employee.csv | input_rows=1606 | output_rows=1606 | duplicates_removed=0 | output=/app/data/clean/dim_employee.csv
+2026-10-13 11:54:43,266 | INFO | TRANSFORM | file=fact_payroll.csv | input_rows=7344 | output_rows=7344 | duplicates_removed=0 | output=/app/data/clean/fact_payroll.csv
+2026-10-13 11:54:43,556 | INFO | TRANSFORM | file=fact_attendance_monthly.csv | input_rows=7343 | output_rows=7343 | duplicates_removed=0 | output=/app/data/clean/fact_attendance_monthly.csv
+2026-10-13 11:54:43,755 | INFO | TRANSFORM | file=fact_leave.csv | input_rows=3441 | output_rows=3441 | duplicates_removed=0 | output=/app/data/clean/fact_leave.csv
+2026-10-13 11:54:43,946 | INFO | VALIDATE | file=dim_employee.csv | input=1606 | accepted=1606 | rejected=0
+2026-10-13 11:54:44,452 | INFO | VALIDATE | file=fact_payroll.csv | input=7344 | accepted=7344 | rejected=0
+2026-10-13 11:54:44,871 | INFO | VALIDATE | file=fact_attendance_monthly.csv | input=7343 | accepted=7343 | rejected=0
+2026-10-13 11:54:45,107 | INFO | VALIDATE | file=fact_leave.csv | input=3441 | accepted=3439 | rejected=2
+2026-10-13 11:54:45,108 | INFO | Rejected rows saved to /app/rejected/rejected_fact_leave.csv
+2026-10-13 11:54:45,111 | INFO | Validation completed.
+2026-10-13 11:54:45,112 | INFO | ========== ETL PIPELINE COMPLETED ==========
+2026-10-13 11:58:07,206 | INFO | ========== ETL PIPELINE STARTED ==========
+2026-10-13 11:58:07,303 | INFO | EXTRACT | file=dim_employee.csv | rows=1606 | columns=21
+2026-10-13 11:58:07,471 | INFO | EXTRACT | file=fact_payroll.csv | rows=7344 | columns=33
+2026-10-13 11:58:07,531 | INFO | EXTRACT | file=fact_attendance_monthly.csv | rows=7343 | columns=16
+2026-10-13 11:58:07,572 | INFO | EXTRACT | file=fact_leave.csv | rows=3441 | columns=14
+2026-10-13 11:58:07,797 | INFO | TRANSFORM | file=dim_employee.csv | input_rows=1606 | output_rows=1606 | duplicates_removed=0 | output=/app/data/clean/dim_employee.csv
+2026-10-13 11:58:08,766 | INFO | TRANSFORM | file=fact_payroll.csv | input_rows=7344 | output_rows=7344 | duplicates_removed=0 | output=/app/data/clean/fact_payroll.csv
+2026-10-13 11:58:09,010 | INFO | TRANSFORM | file=fact_attendance_monthly.csv | input_rows=7343 | output_rows=7343 | duplicates_removed=0 | output=/app/data/clean/fact_attendance_monthly.csv
+2026-10-13 11:58:09,414 | INFO | TRANSFORM | file=fact_leave.csv | input_rows=3441 | output_rows=3441 | duplicates_removed=0 | output=/app/data/clean/fact_leave.csv
+2026-10-13 11:58:09,740 | INFO | Rejected rows saved to /app/rejected/rejected_dim_employee.csv
+2026-10-13 11:58:09,792 | INFO | VALIDATE | file=dim_employee.csv | input=1606 | accepted=356 | rejected=1250
+2026-10-13 11:58:10,891 | INFO | Rejected rows saved to /app/rejected/rejected_fact_payroll.csv
+2026-10-13 11:58:10,921 | INFO | VALIDATE | file=fact_payroll.csv | input=7344 | accepted=2 | rejected=7342
+2026-10-13 11:58:11,614 | INFO | VALIDATE | file=fact_attendance_monthly.csv | input=7343 | accepted=7343 | rejected=0
+2026-10-13 11:58:11,799 | INFO | Rejected rows saved to /app/rejected/rejected_fact_leave.csv
+2026-10-13 11:58:12,084 | INFO | VALIDATE | file=fact_leave.csv | input=3441 | accepted=3439 | rejected=2
+2026-10-13 11:58:12,091 | INFO | Validation completed.
+2026-10-13 11:58:12,092 | INFO | ========== ETL PIPELINE COMPLETED ==========
+2026-10-13 12:16:54,860 | INFO | ========== ETL PIPELINE STARTED ==========
+2026-10-13 12:16:54,921 | INFO | EXTRACT | file=dim_employee.csv | rows=1606 | columns=21
+2026-10-13 12:16:55,167 | INFO | EXTRACT | file=fact_payroll.csv | rows=7344 | columns=33
+2026-10-13 12:16:55,255 | INFO | EXTRACT | file=fact_attendance_monthly.csv | rows=7343 | columns=16
+2026-10-13 12:16:55,319 | INFO | EXTRACT | file=fact_leave.csv | rows=3441 | columns=14
+2026-10-13 12:16:56,548 | INFO | TRANSFORM | file=dim_employee.csv | input_rows=1606 | output_rows=1606 | duplicates_removed=0 | output=/app/data/clean/dim_employee.csv
+2026-10-13 12:16:57,794 | INFO | TRANSFORM | file=fact_payroll.csv | input_rows=7344 | output_rows=7344 | duplicates_removed=0 | output=/app/data/clean/fact_payroll.csv
+2026-10-13 12:16:58,310 | INFO | TRANSFORM | file=fact_attendance_monthly.csv | input_rows=7343 | output_rows=7343 | duplicates_removed=0 | output=/app/data/clean/fact_attendance_monthly.csv
+2026-10-13 12:16:58,578 | INFO | TRANSFORM | file=fact_leave.csv | input_rows=3441 | output_rows=3441 | duplicates_removed=0 | output=/app/data/clean/fact_leave.csv
+2026-10-13 12:16:58,813 | INFO | VALIDATE | file=dim_employee.csv | input=1606 | accepted=1606 | rejected=0
+2026-10-13 12:17:00,831 | INFO | VALIDATE | file=fact_payroll.csv | input=7344 | accepted=7344 | rejected=0
+2026-10-13 12:17:01,421 | INFO | VALIDATE | file=fact_attendance_monthly.csv | input=7343 | accepted=7343 | rejected=0
+2026-10-13 12:17:01,586 | INFO | Rejected rows saved to /app/rejected/rejected_fact_leave.csv
+2026-10-13 12:17:01,706 | INFO | VALIDATE | file=fact_leave.csv | input=3441 | accepted=3439 | rejected=2
+2026-10-13 12:17:01,708 | INFO | Validation completed.
+2026-10-13 12:17:01,709 | INFO | ========== ETL PIPELINE COMPLETED ==========
+2026-10-13 12:19:52,763 | INFO | ========== ETL PIPELINE STARTED ==========
+2026-10-13 12:19:52,811 | INFO | EXTRACT | file=dim_employee.csv | rows=1606 | columns=21
+2026-10-13 12:19:52,947 | INFO | EXTRACT | file=fact_payroll.csv | rows=7344 | columns=33
+2026-10-13 12:19:52,983 | INFO | EXTRACT | file=fact_attendance_monthly.csv | rows=7343 | columns=16
+2026-10-13 12:19:53,015 | INFO | EXTRACT | file=fact_leave.csv | rows=3441 | columns=14
+2026-10-13 12:19:53,221 | INFO | TRANSFORM | file=dim_employee.csv | input_rows=1606 | output_rows=1606 | duplicates_removed=0 | output=/app/data/clean/dim_employee.csv
+2026-10-13 12:19:54,188 | INFO | TRANSFORM | file=fact_payroll.csv | input_rows=7344 | output_rows=7344 | duplicates_removed=0 | output=/app/data/clean/fact_payroll.csv
+2026-10-13 12:19:54,512 | INFO | TRANSFORM | file=fact_attendance_monthly.csv | input_rows=7343 | output_rows=7343 | duplicates_removed=0 | output=/app/data/clean/fact_attendance_monthly.csv
+2026-10-13 12:19:54,703 | INFO | TRANSFORM | file=fact_leave.csv | input_rows=3441 | output_rows=3441 | duplicates_removed=0 | output=/app/data/clean/fact_leave.csv
+2026-10-13 12:19:54,897 | INFO | VALIDATE | file=dim_employee.csv | input=1606 | accepted=1606 | rejected=0
+2026-10-13 12:19:56,020 | INFO | VALIDATE | file=fact_payroll.csv | input=7344 | accepted=7344 | rejected=0
+2026-10-13 12:19:56,399 | INFO | VALIDATE | file=fact_attendance_monthly.csv | input=7343 | accepted=7343 | rejected=0
+2026-10-13 12:19:56,519 | INFO | Rejected rows saved to /app/rejected/rejected_fact_leave.csv
+2026-10-13 12:19:56,618 | INFO | VALIDATE | file=fact_leave.csv | input=3441 | accepted=3439 | rejected=2
+2026-10-13 12:19:56,620 | INFO | Validation completed.
+2026-10-13 12:19:56,621 | INFO | ========== ETL PIPELINE COMPLETED ==========

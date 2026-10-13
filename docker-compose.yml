@@ -1,0 +1,12 @@
+
+services:
+  etl:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data/raw:/app/data/raw
+      - ./data/clean:/app/data/clean
+      - ./rejected:/app/rejected
+      - ./logs:/app/logs
+    command: python src/main.py
